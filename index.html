@@ -16,6 +16,7 @@
   <script src="ex6-13.js"></script> 
   <script src="ex6-14.js"></script> 
   <script src="ex6-15.js"></script> 
+  <script src="ex6-16.js"></script>   
   <link rel="stylesheet" href="imagechange.css">
 </head>
   
@@ -128,13 +129,17 @@
    <input type="button" value="別の写真にする" onclick="changePhoto();">
    <input type="button" value="元に戻す" onclick="resetPhoto();">
 
-   <h1>練習問題6.15 タイマーイベントによる実行</h1>
+   <h1>練習問題6.15 タイマーイベントによる実行➀</h1>
    <form name="timer">
-  <input type="button" value="スタート" onclick="startfnc()">
-  <br>
-  <input type="text" name="moji" size="30" value="">
-  </form>  
+   <input type="button" value="スタート" onclick="startfnc()">
+   <br>
+   <input type="text" name="moji" size="30" value="">
+   </form>  
    
+   <h1>練習問題6.16 タイマーイベントによる実行➁</h1>
+   <from>
+     <input type="button" value="Timer" onclick="setTimeout('mes()',3000)">
+   </from>
    
    
   </body>
