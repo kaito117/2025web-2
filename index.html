@@ -18,6 +18,7 @@
   <script src="ex6-15.js"></script> 
   <script src="ex6-16.js"></script>
   <script src="ex6-17.js"></script>  
+  <script src="ex6-18.js"></script>
   <link rel="stylesheet" href="imagechange.css">
 </head>
   
@@ -124,7 +125,7 @@
    <h1>練習問題6.14 自己紹介</h1>
    <p>こんにちは。私は宮﨑です。趣味はサッカーの審判です。</p>
    <div id="log3">
-    <img src="./image/photo1.JPG" id="face" alt="私の写真">
+    <img src="./image/photo1.JPG" id="face" class="imagechange" alt="私の写真">
    </div>
 
    <input type="button" value="別の写真にする" onclick="imagechange3();">
@@ -147,7 +148,12 @@
    <input type="button" value="スタート" onclick="hyoji17()">
    <br>
    <input type="text" name="moji17" size="30" value="">
-   </form>  
+   </form> 
+
+    <h1>練習問題6.18 タイマーイベントによる実行④</h1>
+  <img id="img18" src="サッカーボール1.jpg" class="imagechange" alt="ボール">
+  <br><br>
+  <input type="button" value="画像を切り替える" onclick="changeImage()">
    
    
   </body>
