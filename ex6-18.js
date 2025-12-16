@@ -1,6 +1,7 @@
-  function changeImage() {const img = document.getElementById("img18");
-    img.src = "サッカーボール2.jpg";
-    setTimeout(function () {
-      img.src = "サッカーボール1.jpg";
-    }, 3000);}
+function changeImage() {
+  var img = document.getElementById("img18");
+  img.src = "./image/サッカーボール2.jpg";
+  setTimeout(function () {
+    img.src = "./image/サッカーボール1.jpg";
+  }, 3000);}
 
