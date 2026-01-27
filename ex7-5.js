@@ -1,4 +1,4 @@
-function nazo() {
+function nazo1() {
   var ans = document.getElementById("answer1").value;
 
   // 等しい比較（練習問題7-5）
